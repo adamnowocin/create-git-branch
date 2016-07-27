@@ -15,7 +15,7 @@ Install the package with npm and add it to your development dependencies:
 var branch = require('create-git-branch');
 
 branch('git@github.com:adamnowocin/create-git-branch.git', '1.0.0').then(function() {
-  done();
+  // do something
 });
 ```
 
@@ -25,7 +25,7 @@ branch('git@github.com:adamnowocin/create-git-branch.git', '1.0.0').then(functio
 var branch = require('create-git-branch');
 
 branch('git@github.com:adamnowocin/create-git-branch.git', '1.0.0').then(function() {
-  done();
+  // do something
 }, function(err) {
   // do something
 });
@@ -37,7 +37,7 @@ branch('git@github.com:adamnowocin/create-git-branch.git', '1.0.0').then(functio
 var branch = require('gulp-create-git-branch');
 
 branch('git@github.com:adamnowocin/create-git-branch.git', '1.0.0', 'tmp-repo').then(function() {
-  done();
+  // do something
 });
 ```
 
