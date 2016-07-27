@@ -1,7 +1,7 @@
 {
   "name": "create-git-branch",
   "main": "index.js",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "It creates a new branch in the specified repository",
   "author": "Adam Nowocin <adam.nowocin@gmail.com>",
   "license": "MIT",
@@ -22,8 +22,7 @@
     "gulp-util": "^3.0.4",
     "mkdirp": "^0.5.1",
     "promise": "^7.1.1",
-    "rimraf": "^2.3.4",
-    "through2": "^0.6.5"
+    "rimraf": "^2.3.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
